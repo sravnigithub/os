@@ -36,7 +36,7 @@ wt[i]+=bt[j];
 total+=wt[i];
 }
 avg_wt=(float)total/n;
-printf("\nProcess\t Burst Time \tWaiting Time\tTurnaround Time");
+printf("\nProcess\t Burst Time \tWaiting Time\tTunaround Time");
 for(i=0;i<n;i++)
 {
 tat[i]=bt[i]+wt[i];
